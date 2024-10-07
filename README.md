@@ -1,3 +1,4 @@
+
 # Cloud Infrastructure, Migration, and DevOps
 
 In this project, I’ve put together an Azure-based cloud infrastructure, demonstrating how to design, deploy, and manage services with a focus on availability, scalability, security, and cost optimisation. I also simulated a migration process to give a feel for moving from on-premises systems to the cloud. 
@@ -50,5 +51,27 @@ I also set up a budget using **Azure Cost Management** to help track and control
 To make things run smoothly, I set up a CI/CD pipeline using **Azure DevOps** to automate both the infrastructure and app deployment.
 
 - The pipeline takes care of deploying both the infrastructure and the app using **Terraform**, ensuring that everything is repeatable and consistent.
-- I also used **Azure Monitor** and **Application Insights** to track performance metrics like response times, error rates, and the overall
+- I also used **Azure Monitor** and **Application Insights** to track performance metrics like response times, error rates, and the overall health of the app.
 
+Here’s what the pipeline configuration in Azure DevOps looks like:
+
+![My Pipeline](https://github.com/user-attachments/assets/16d3f703-319f-4a7f-bd9e-d048e8412532)
+
+Additionally, a `destroy` job was created to automate the cleanup of resources when they were no longer needed:
+
+![Destroy](https://github.com/user-attachments/assets/53f046b6-ea72-48fc-b335-3ae3230351b6)
+
+## Cost Management & Optimisation
+
+Throughout this project, **Azure Cost Management** and **Azure Advisor** were essential tools for tracking and managing cloud costs. By following best practices, I ensured that resources were used efficiently and that unnecessary expenses were avoided.
+
+- **Azure Advisor** provided recommendations for optimising resource usage, such as identifying underutilised VMs and app services that could be resized or decommissioned to save costs.
+- **Azure Cost Management** was used to create budget alerts and monitor spending in real-time, ensuring that the infrastructure remained cost-efficient without sacrificing performance.
+
+![cost-analysis-b52dedab](https://github.com/user-attachments/assets/87c1327c-d6a9-477d-9cfc-5a8894270b32)
+
+Through this process, I demonstrated effective cloud cost management techniques and the ability to optimise resources while keeping overall costs down.
+
+## Conclusion
+
+This project serves as a comprehensive demonstration of my expertise in cloud infrastructure deployment, cloud migration, cost optimisation, and DevOps automation using Azure. By simulating an on-premises migration, leveraging cost management tools, and setting up a fully automated CI/CD pipeline, I was able to showcase the practical skills necessary to operate in modern cloud environments. These are aligned with industry best practices for cloud computing and operations.
