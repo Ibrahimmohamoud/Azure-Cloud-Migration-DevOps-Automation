@@ -39,7 +39,7 @@ Here’s the web app running on the Azure VM:
 
 Azure Advisor also provided the following cost-saving recommendations:
 
-![Azure Advisor Cost Recommendations](./images/azure_advisor.png)
+![azure advisor](https://github.com/user-attachments/assets/fbc030d8-eee3-41a1-82b4-900ed168b63c)
 
 In addition, I set up a budget in Azure Cost Management to track and control expenses effectively:
 
