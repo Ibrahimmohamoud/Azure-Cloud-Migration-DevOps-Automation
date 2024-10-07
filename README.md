@@ -20,9 +20,10 @@ I began by setting up a cloud infrastructure on Azure that emphasises high avail
 6. **Network Security Groups (NSGs)** to secure the network by controlling inbound and outbound traffic.
 7. Auto-scaling configurations were set up to manage workloads that vary in demand, ensuring that the infrastructure scales as needed.
 
-Here’s a screenshot showing the Terraform code used to build the infrastructure:
+Here’s a Picture showing the Terraform code used to build the infrastructure:
 
-![Terraform Infrastructure](./images/Terraform.png)
+![Terraform](https://github.com/user-attachments/assets/399ce5d4-f932-4ca1-8e64-5c9a6fa39047)
+
 
 ### Cloud Migration Simulation & Cost Management
 
@@ -34,8 +35,7 @@ Next, I simulated a cloud migration by setting up an Azure VM to act as an on-pr
 - **Azure Advisor** provided useful recommendations on optimising the setup by identifying unused or underutilised resources, ensuring cost efficiency.
 
 Here’s the web app running on the Azure VM:
-
-![Web App Deployed on IIS](./images/real_vm.png)
+![real vm](https://github.com/user-attachments/assets/a2579dec-f7ec-4707-a65a-c393aa806369)
 
 Azure Advisor also provided the following cost-saving recommendations:
 
@@ -43,7 +43,7 @@ Azure Advisor also provided the following cost-saving recommendations:
 
 In addition, I set up a budget in Azure Cost Management to track and control expenses effectively:
 
-./images/Budget.png)
+![Budget](https://github.com/user-attachments/assets/bb3f7039-b3a2-47cd-ac47-89aebf34c9ab)
 
 ### DevOps Pipeline & Monitoring
 
@@ -54,11 +54,12 @@ To streamline the deployment and management of the infrastructure, I set up a co
 
 Here’s the pipeline configuration in Azure DevOps:
 
-![Azure DevOps Pipeline](./images/My_Pipeline.png)
+![My Pipeline](https://github.com/user-attachments/assets/16d3f703-319f-4a7f-bd9e-d048e8412532)
 
 Additionally, a `destroy` job was created to automate the cleanup of resources when they were no longer needed:
 
-![Terraform Destroy Process](./images/Destroy.png)
+![Destroy](https://github.com/user-attachments/assets/53f046b6-ea72-48fc-b335-3ae3230351b6)
+
 
 ## Cost Management & Optimisation
 
