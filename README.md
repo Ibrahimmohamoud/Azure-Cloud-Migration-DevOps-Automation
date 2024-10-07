@@ -10,65 +10,65 @@ In this project, I built a fully functional Azure cloud infrastructure using Ter
 
 ### Infrastructure Design & Deployment
 
-I began by setting up a robust infrastructure on Azure that emphasises high availability, scalability, and security. The following components were deployed using Terraform:
+I began by setting up a cloud infrastructure on Azure that emphasises high availability, scalability, and security. Using Terraform, I deployed the following components:
 
-1. **Azure Virtual Network (VNet)** to enable secure networking.
+1. **Azure Virtual Network (VNet)** to create a secure network for communication.
 2. **Azure App Service** to host a sample web application.
-3. **Azure SQL Database** for data storage with security features.
+3. **Azure SQL Database** to handle data storage with built-in security features.
 4. **Azure Key Vault** to securely store application secrets.
-5. **Azure Load Balancer** or **Application Gateway** to ensure high availability.
-6. **Network Security Groups (NSGs)** for securing inbound and outbound traffic.
-7. Auto-scaling configurations to handle varying workloads.
+5. **Azure Load Balancer** or **Application Gateway** to ensure high availability and manage traffic efficiently.
+6. **Network Security Groups (NSGs)** to secure the network by controlling inbound and outbound traffic.
+7. Auto-scaling configurations were set up to manage workloads that vary in demand, ensuring that the infrastructure scales as needed.
 
-Here is a screenshot of the Terraform code used to build the infrastructure:
+Here’s a screenshot showing the Terraform code used to build the infrastructure:
 
-![Terraform Infrastructure](./path_to_image/Screenshot_2024-10-06_102334.png)
+![Terraform Infrastructure](./images/Terraform.png)
 
 ### Cloud Migration Simulation & Cost Management
 
-Next, I simulated a cloud migration using an Azure VM that hosted a simple HTML-based web app on IIS, representing a real-world on-premises solution.
+Next, I simulated a cloud migration by setting up an Azure VM to act as an on-premises server running a simple HTML-based web app on IIS, mimicking a real-world scenario.
 
-- **Azure Migrate** was used to assess the readiness for migration to Azure App Services and Azure SQL.
-- The IIS-based app was successfully migrated to Azure VM, which mimicked a transition from an on-premises environment to the cloud.
-- **Azure Cost Management** was employed to track resource costs and ensure budget adherence.
-- **Azure Advisor** provided cost-saving recommendations and optimisations for unused resources.
+- **Azure Migrate** was used to assess how prepared the infrastructure was for migration to Azure services, such as Azure App Services and Azure SQL.
+- The IIS-based app was deployed to an Azure VM, simulating the move from an on-premises environment to a cloud environment.
+- **Azure Cost Management** was then employed to monitor resource usage and ensure that costs remained within budget.
+- **Azure Advisor** provided useful recommendations on optimising the setup by identifying unused or underutilised resources, ensuring cost efficiency.
 
-Here is the migrated web app hosted on the Azure VM:
+Here’s the web app running on the Azure VM:
 
-![Web App Deployed on IIS](./path_to_image/Screenshot_2024-10-06_124752.png)
+![Web App Deployed on IIS](./images/real_vm.png)
 
-Azure Advisor provided cost-saving recommendations as seen below:
+Azure Advisor also provided the following cost-saving recommendations:
 
-![Azure Advisor Cost Recommendations](./path_to_image/Screenshot_2024-10-06_124450.png)
+![Azure Advisor Cost Recommendations](./images/azure_advisor.png)
 
-Additionally, I set up a budget in Azure Cost Management to track and manage expenses:
+In addition, I set up a budget in Azure Cost Management to track and control expenses effectively:
 
-![Azure Cost Management](./path_to_image/Screenshot_2024-10-05_114938.png)
+![Azure Cost Management](./images/Budget.png)
 
 ### DevOps Pipeline & Monitoring
 
-To streamline infrastructure management and application deployment, I implemented a CI/CD pipeline using **Azure DevOps**. The pipeline was automated to handle both infrastructure provisioning and web application deployment.
+To streamline the deployment and management of the infrastructure, I set up a continuous integration/continuous delivery (CI/CD) pipeline using **Azure DevOps**. This pipeline was designed to automate both the provisioning of the infrastructure and the deployment of the web application.
 
-- The pipeline was configured to automate the deployment of the app and infrastructure using **Terraform**.
-- **Azure Monitor** and **Application Insights** were integrated to track application performance metrics, such as response times, error rates, and health monitoring.
+- The pipeline automates the deployment process using **Terraform** to ensure that both infrastructure and application deployments are consistent and repeatable.
+- **Azure Monitor** and **Application Insights** were integrated to provide detailed performance metrics, including response times, error rates, and overall application health.
 
-Below is the pipeline configuration in Azure DevOps:
+Here’s the pipeline configuration in Azure DevOps:
 
-![Azure DevOps Pipeline](./path_to_image/My_Pipeline.png)
+![Azure DevOps Pipeline](./images/My_Pipeline.png)
 
-Additionally, a `destroy` job was created in the pipeline to automate the cleanup of resources when needed:
+Additionally, a `destroy` job was created to automate the cleanup of resources when they were no longer needed:
 
-![Terraform Destroy Process](./path_to_image/Destroy.png)
+![Terraform Destroy Process](./images/Destroy.png)
 
 ## Cost Management & Optimisation
 
-Azure Cost Management and Azure Advisor played a crucial role in this project by helping to track and manage the cost of resources. I applied best practices to ensure resources were not underutilised and that unnecessary expenses were avoided.
+Throughout this project, **Azure Cost Management** and **Azure Advisor** were essential tools for tracking and managing cloud costs. By following best practices, I ensured that resources were used efficiently and that unnecessary expenses were avoided.
 
-- **Azure Advisor** provided recommendations for optimising resources, such as identifying unused virtual machines and app services.
-- **Azure Cost Management** was used to create alerts and monitor spending to ensure that the cloud environment remained cost-efficient.
+- **Azure Advisor** provided recommendations for optimising resource usage, such as identifying underutilised VMs and app services that could be resized or decommissioned to save costs.
+- **Azure Cost Management** was used to create budget alerts and monitor spending in real-time, ensuring that the infrastructure remained cost-efficient without sacrificing performance.
 
-Through this process, I was able to demonstrate effective cloud cost management and the ability to optimise resource usage, keeping in line with best practices for cloud cost control.
+Through this process, I demonstrated effective cloud cost management techniques and the ability to optimise resources while keeping overall costs down.
 
 ## Conclusion
 
-This project is a comprehensive demonstration of cloud infrastructure deployment, cloud migration, cost optimisation, and DevOps automation using Azure. By simulating an on-premises migration, applying cost management tools, and setting up a fully automated CI/CD pipeline, I was able to showcase practical skills that align with industry best practices for cloud computing and operations.
+This project serves as a comprehensive demonstration of my expertise in cloud infrastructure deployment, cloud migration, cost optimisation, and DevOps automation using Azure. By simulating an on-premises migration, leveraging cost management tools, and setting up a fully automated CI/CD pipeline, I was able to showcase the practical skills necessary to operate in modern cloud environments. These are aligned with industry best practices for cloud computing and operations.
