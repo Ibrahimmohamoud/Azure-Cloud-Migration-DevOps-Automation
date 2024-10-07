@@ -43,7 +43,7 @@ Azure Advisor also provided the following cost-saving recommendations:
 
 In addition, I set up a budget in Azure Cost Management to track and control expenses effectively:
 
-![Azure Cost Management](./images/Budget.png)
+./images/Budget.png)
 
 ### DevOps Pipeline & Monitoring
 
