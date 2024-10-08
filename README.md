@@ -42,7 +42,7 @@ With the analysis from **Azure Migrate**, I deployed the HTML-based app on an Az
 
 Here’s the web app running on the Azure VM:
 
-![real vm](https://github.com/user-attachments/assets/a2579dec-f7ec-4707-a65a-c393aa806369)
+![Screenshot 2024-10-06 102334](https://github.com/user-attachments/assets/d4ebe32d-317c-4423-942f-0d51d5ab4df4)
 
 ### Cost Management with Azure Tools
 
