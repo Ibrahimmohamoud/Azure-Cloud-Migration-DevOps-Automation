@@ -26,8 +26,7 @@ I started by setting up a cloud infrastructure that was secure, scalable, and bu
 
 Here’s a look at the Terraform code I used:
 
-![Terraform](./images/Terraform.png)
-
+![Terraform](https://github.com/user-attachments/assets/c087cd65-7b32-4a7d-9ba4-9f93e3868401)
 ---
 
 ### Cloud Migration Simulation with Azure Migrate
@@ -39,13 +38,13 @@ To simulate the migration, I used **Azure Migrate** to assess and plan the move 
 
 Here’s a snapshot of **Azure Migrate** in action:
 
-![Azure Migrate](./images/image.png)
+![Screenshot 2024-10-08 115231](https://github.com/user-attachments/assets/32a53499-a36f-4e0a-b2bb-c79fa1bdbb9d)
 
 With **Azure Migrate**, I deployed the app on an Azure VM, simulating an on-prem setup, and planned out the migration strategy.
 
 Here’s the web app running on the Azure VM:
 
-![Azure VM](./images/Screenshot2024-10-06.png)
+![Screenshot 2024-10-06 102334](https://github.com/user-attachments/assets/87ce4cea-262f-4812-8a4a-1e035c1862e8)
 
 ---
 
@@ -75,7 +74,7 @@ Here’s the cost-saving advice from Azure Advisor:
 
 Here’s a snapshot of **Azure Cost Analysis**:
 
-![Cost Analysis](./images/Screenshot2024-10-08.png)
+![Screenshot 2024-10-08 113835](https://github.com/user-attachments/assets/53ce519d-0b70-415d-9228-dabc3b5eff59)
 
 ---
 
