@@ -36,7 +36,8 @@ Next, I simulated a migration by setting up an Azure VM to act as an on-premises
 
 Here’s the web app running on the Azure VM:
 
-![real vm](https://github.com/user-attachments/assets/a2579dec-f7ec-4707-a65a-c393aa806369)
+![Screenshot 2024-10-06 102334](https://github.com/user-attachments/assets/f4eee4c6-cddb-49da-9c36-c098f47b269e)
+
 
 Azure Advisor’s cost-saving recommendations looked like this:
 
