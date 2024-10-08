@@ -68,7 +68,7 @@ Throughout this project, **Azure Cost Management** and **Azure Advisor** were es
 - **Azure Advisor** provided recommendations for optimising resource usage, such as identifying underutilised VMs and app services that could be resized or decommissioned to save costs.
 - **Azure Cost Management** was used to create budget alerts and monitor spending in real-time, ensuring that the infrastructure remained cost-efficient without sacrificing performance.
 
-![cost-analysis-b52dedab](https://github.com/user-attachments/assets/87c1327c-d6a9-477d-9cfc-5a8894270b32)
+![costt](https://github.com/user-attachments/assets/ac741ea6-b9aa-4ac5-a0d5-e28e14cbe431)
 
 Through this process, I demonstrated effective cloud cost management techniques and the ability to optimise resources while keeping overall costs down.
 
