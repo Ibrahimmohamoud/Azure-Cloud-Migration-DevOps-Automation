@@ -58,7 +58,7 @@ Managing costs was crucial throughout the project. I used three main tools to ke
 
 Here’s a look at the budget setup:
 
-![Budget](./images/Budget.png)
+![Budget](https://github.com/user-attachments/assets/e473d276-979c-4e21-b563-aa89700cb2cb)
 
 #### 2. **Azure Advisor**:
 - Azure Advisor provided real-time advice on how to optimise the cloud setup and save costs.
@@ -66,7 +66,7 @@ Here’s a look at the budget setup:
 
 Here’s the cost-saving advice from Azure Advisor:
 
-![Azure Advisor](./images/azure_advisor.png)
+![azure advisor](https://github.com/user-attachments/assets/e6fcf978-b378-437a-831f-88c72c99c737)
 
 #### 3. **Azure Cost Analysis**:
 - This tool broke down where the costs were coming from, showing trends and helping with future planning.
@@ -74,7 +74,7 @@ Here’s the cost-saving advice from Azure Advisor:
 
 Here’s a snapshot of **Azure Cost Analysis**:
 
-![Screenshot 2024-10-08 113835](https://github.com/user-attachments/assets/53ce519d-0b70-415d-9228-dabc3b5eff59)
+![Screenshot 2024-10-08 113835](https://github.com/user-attachments/assets/b69b2a9b-50f6-4f71-b078-bbe5a3b8d2de)
 
 ---
 
@@ -87,12 +87,11 @@ To keep everything smooth and automated, I set up a CI/CD pipeline using **Azure
 
 Here’s how the pipeline looks:
 
-![Azure DevOps Pipeline](./images/My_Pipeline.png)
+![My Pipeline](https://github.com/user-attachments/assets/26d5b991-fbe1-4044-a393-f805088ea22b)
 
 I also set up a `destroy` job to automate resource clean-up when things weren’t needed anymore, helping to avoid extra costs.
 
-![Destroy Job](./images/Destroy.png)
-
+![Screenshot 2024-05-09 124349](https://github.com/user-attachments/assets/d61d467d-1856-4beb-8a4b-5599ad9e3319)
 ---
 
 ## Pulling It All Together: Cost Management, Monitoring, and Optimisation
